@@ -37,11 +37,9 @@ for kartya in jatekos:
 jatekos_erteke = kez_erteke(jatekos)
 print(f"A pontszámod: {jatekos_erteke}\n")
 
-print("Az osztó lapjai:")
-for kartya in oszto:
-    print(' '.join(kartya))
+print("Az osztó egyik lapja:")
+print(' '.join(oszto[0]))
 oszto_erteke = kez_erteke(oszto)
-print(f"Az osztó pontszáma: {oszto_erteke}")
 
 while jatekos_erteke < 21:
     valasz = input("\nKérsz még lapot? (i/n): ")
